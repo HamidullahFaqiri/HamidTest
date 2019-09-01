@@ -3,118 +3,149 @@
     <head>
         <meta charset="utf-8">
         <title>Nerds Project</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,
+        700&display=swap&subset=cyrillic" rel="stylesheet"> 
+
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="logo">
-                <h1>Nerds design studio</h1>
+            <div class="logotype">
+               <h1></h1> 
                 <img src="images/nerds-logo.png" alt="nerds logo">
             </div>
 
-            <nav class="main-nav main-nav--column">
-                <ul class="main-nav__list main-nav__list--mod">
-                    <li class="main-nav__item"><a href="#">СТУДИЯ</a></li>
-                    <li class="main-nav__item"><a href="#">КЛИЕНТЫ</a></li>
-                    <li class="main-nav__item"><a href="#">МАГАЗИН</a></li>
-                    <li class="main-nav__item"><a href="#">КОНТАКТЫ</a></li>
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li><a href="#">СТУДИЯ</a></li>
+                    <li><a href="#">КЛИЕНТЫ</a></li>
+                    <li><a href="#">МАГАЗИН</a></li>
+                    <li><a href="#">КОНТАКТЫ</a></li>
                 </ul>
-            </nav>
 
-            <ul>
-                <li class="blocks">
+                <ul class="main-nav-cart">
+                <li>
                     <a href="#">
-                        <img src="images/cart-icon.png" alt="cart icone">
+                        <img src="images/cart-icon.png" alt="cart icon">
                         КОРЗИНА
                     </a>
                 </li>
-            </ul>
+            </ul></nav>
         </header>
     
-    <main>
-        <section class="slider">
-            <div class="slider__item">
-                <div>
-                    <p>Долго, Дорого, скруплезно.</p> 
+        <main>
+            <div class="content-slide">
+            <section class="top-part">
+                <div class="top-part-info">
+                    <p class="info">Долго, Дорого, скруплезно.</p> 
                     <p>Математически Выверенный дизайн для вашего саита илл мобильного приложения.</p>
-                    <a href="Узнать Больше">Узнать Больше</a>
+                    <a class="button" href="#">Узнать Больше</a>
                 </div>
-
-                <div>
-                    <img src="images/slide1.png" alt="iphones image">
-                </div>
-            </div>
-        </section>
-       
-        <section>
-            <div><img src="images/illustration-1.png" alt="computer">
-                <h3>Веб-Сайты</h3>
-                <p>Мир некогда будет прежним после того как увидить ваш сайт!</p>
-                <a href="зказать">зказать</a></div>
-                <div>
-
-             </div><img src="images/illustration-2.png" alt="mobile">
-                <h3>Приложения</h3>
-                <p>покрорите топ-10 приложений в Applestore и Google play</p>
-                <a href="зказать">зказать</a>
-            </div>
-         
-            <div><img src="images/illustration-3.png" alt="screen">
-                <h3>Презентаций</h3>
-                <p>Вы даже не подозреваете, насколько вы измительны!</p>
-                <a href="зказать">зказать</a>
-                </div>
-        </section>
-        
-
-        <section>
-            <div>
-                <p>Мы-Маленькая но гордая дзайн-студия из Краснодара.</p>
-                <p>изповедуем принципы минимализма и чистоты. ставим математическая расчет превыше креатива. работаем не покладая рук, как работы.  </p>
-                <h3>Выполняем заказы на разработку: </h3>
-          <ul>
-              <li> Веб-сайтов любой сложности</li>
-              <li> Мобильньх приложений для IOS и Android. </li>
-              <li> Слайдшоу и ведео для корпративных презентаций. </li>
-          </ul></div>
-
-            <div>
-                <img src="images/nerds-illustration.png" alt="nerds illustration">
-                <h3> с 2004 года любим точности во всем:</h3>
-                <ul>
-                    <li><strong>146%</strong> самоотдачи</li>
-                    <li><strong>100%</strong> соблюдение сроков</li>
-                    <li><strong>50%</strong> Минималная предоплата</li>
-                </ul>
-            </div>
-        </section>
-
-         <ul>
-             <li><img src="images/logo-1.png.png" alt="html accademy logo"></li>
-             <li><img src="images/logo-2.png.png" alt="beard"></li>
-             <li><img src="images/logo-3.png.png" alt="pink"></li>
-             <li><img src="images/logo-4.png.png" alt="misahka"></li>
-         </ul>
-     
-            <img src="images/слой 2.png" alt="map">
-            <img src="images/map-marker.png.png" alt="mapmarker">
-            <img src="images/nerds-logo.png" alt="nerd">
-            
-                <p> NERDS DESIGN STUDIO
-                191186, Санкт-Петербург,
-                ул.Б. Конюшенная, Д.19/8
-                тел. +7 (812) 275-75-75</p>
-             <a href="НАПИШИТЕ НАМ">НАПИШИТЕ НАМ</a>
-    
-         <footer> 
-            
-            <section>
-                    <a href="#">vk</a>
-                    <a href="#">fb</a>
-                    <a href="#">instagram</a>
             </section>
-    
-            <p>Давайте держить, это выгодно!</p>
-            <p>скидка 10% для друзей из социальных сетей.</p>
+
+            <section class="slider">
+                    <ul class="slides-switches">
+                        <li class="slide-radio">
+                            <button class="slide-btn">
+                                 <img src="images/slide1.png" alt="iphone images">
+                            </button>
+                        </li>
+                        <li class="slide-radio">
+                           <button class="slide-btn" >
+                               <a href="#">second-slide</a> 
+                           </button>
+                        </li>
+                        <li class="slide-radio">
+                            <button class="slide-btn">
+                                <a href="#">thrid-slide</a>
+                            </button>
+                        </li>
+                    </ul>
+            </section>
+            </div>
+
+            <section class="devices-type">
+                 <div><img src="images/illustration-1.png" alt="computer image">
+                    <h2>Веб-Сайты</h2>
+                    <p>Мир некогда будет прежним после того как увидить ваш сайт!</p>
+                    <a  class="button" href="#">зказать</a>
+                 </div>
+
+                 <div><img src="images/illustration-2.png" alt="mobile image">
+                    <h2>Приложения</h2>
+                    <p>покрорите топ-10 приложений в Applestore и Google play</p>
+                    <a class="button" href="#">зказать</a>
+                 </div>
+         
+                 <div><img src="images/illustration-3.png" alt="screen image">
+                    <h2>Презентаций</h2>
+                    <p>Вы даже не подозреваете, насколько вы измительны!</p>
+                    <a class="button" href="#">зказать</a>
+                 </div>
+            </section>
+
+        
+            <div class="context-info">
+             <section class="context">
+                     
+                    <b>Мы-Маленькая но гордая дзайн-студия из Краснодара.</b>
+                    <p>изповедуем принципы минимализма и чистоты. ставим математическая расчет превыше креатива. работаем не покладая рук, как работы.  </p>
+                    <h3>Выполняем заказы на разработку:</h3>
+                    <ul class="context-list">
+                         <li>Веб-сайтов любой сложности</li>
+                         <li>Мобильньх приложений для IOS и Android.</li>
+                         <li>Слайдшоу и ведео для корпративных презентаций.</li>
+                    </ul>
+
+                <section class="Rating">
+                    <img src="images/nerds-illustration.png" alt="nerds illustration image">
+                    <h3>с 2004 года любим точности во всем:</h3>
+                    <ul class="Rating-percentage">
+                        <li><strong>146%</strong>самоотдачи</li>
+                        <li><strong>100%</strong>соблюдение сроков</li>
+                        <li><strong>50%</strong>Минималная предоплата</li>
+                    </ul>
+                </section>
+             </section>
+            </div>
+
+
+            <section class="brands"><div>
+                 <ul>
+                    <li><img src="images/logo-1.png.png" alt="html accademy"></li>
+                    <li><img src="images/logo-2.png.png" alt="beard"></li>
+                    <li><img src="images/logo-3.png.png" alt="pink"></li>
+                    <li><img src="images/logo-4.png.png" alt="misahka"></li>
+                 </ul>
+            </section>
+     
+            
+         <footer> 
+            <section class="address-infooter">
+                <div>
+                    <img src="images/слой 2.png" alt="map">
+                    <img src="images/map-marker.png.png" alt="mapmarker logo">
+                    <img src="images/nerds-logo.png" alt="nerd logo">
+                    
+                        <p class="studio-name"> NERDS DESIGN STUDIO</p>
+                        191186, Санкт-Петербург,<br>
+                        ул.Б. Конюшенная, Д.19/8<br>
+                        тел. +7 (812) 275-75-75<br>
+                     <a class="button" href="#">НАПИШИТЕ НАМ</a>
+                </div>
+            
+            <section class="media-footer">
+                <ul class="social-media">
+                    <li><a href="#">follow us in vkontact</a></li>
+                    <li><a href="#">follow us in facebook</a></li>
+                    <li><a href="#">follow us in instagram</a></li>
+                </ul>       
+            </section>       
+                 <div>
+                <b>Давайте держить, это выгодно!</b>
+                <p>скидка 10% для друзей из социальных сетей.</p>
+                </div>
         </footer>
      </main>
     </body>

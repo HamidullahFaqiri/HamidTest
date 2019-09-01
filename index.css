@@ -1,0 +1,92 @@
+body {
+    margin : 0;
+    padding: 0;
+
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #283136;
+
+    background-color: #ffffff;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    font: inherit;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    background-color: red;
+    border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+
+ background-color: red;
+
+    
+
+}
+.main-nav {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    
+
+    background-color: #eeeeee;
+}
+
+.main-nav-list,
+.main-nav-cart {
+list-style: none;
+}
+
+.main-nav-list a,
+.main-nav-cart a {
+    color: #000000;
+}
+
+.main-nav-list a:hover,
+.main-nav-list a:focus,
+.main-nav-cart a:hover,
+.main-nav-cart a:focus {
+    background-color: #eeeeee;
+}
+
+p .info {
+    font-size: 55px;
+    line-height: 55px;
+    color: #000000;
+
+    background-color: #eeeeee;
+
+}
+
+.top-part.info a{
+    color: red;
+    background-color: #eeeeee;
+
+}
+
+.slide-btn {
+    background-color: #eeeeee;
+    
+}
+
+.devices-type {
+    background-color: #ffffff;
+
+}
+ 
