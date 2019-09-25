@@ -7,146 +7,142 @@
         700&display=swap&subset=cyrillic" rel="stylesheet"> 
 
         <link href="css/normalize.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
     </head>
+
     <body>
-        <header>
-            <div class="logotype">
-               <h1></h1> 
-                <img src="images/nerds-logo.png" alt="nerds logo">
-            </div>
-
-            <nav class="main-nav">
-                <ul class="main-nav-list">
-                    <li><a href="#">СТУДИЯ</a></li>
-                    <li><a href="#">КЛИЕНТЫ</a></li>
-                    <li><a href="#">МАГАЗИН</a></li>
-                    <li><a href="#">КОНТАКТЫ</a></li>
-                </ul>
-
-                <ul class="main-nav-cart">
-                <li>
-                    <a href="#">
-                        <img src="images/cart-icon.png" alt="cart icon">
-                        КОРЗИНА
-                    </a>
-                </li>
-            </ul></nav>
-        </header>
+        <header class="page-header">
+                 <nav class="header-nav">
+                    <figure class="header-logo">
+                        <img src="images/nerds-logo.png" alt="nerds logo" width="160" height="70">
+                    </figure>
+                    <div class="nav-menu-items">
+                         <div class="menu-items" >
+                            <ul class="header-nav-list">
+                                <li><a href="#">студия</a></li>
+                                <li><a href="#">клиенты</a></li>
+                                <li><a href="#">магазин</a></li>
+                                <li><a href="#">контакты</a></li>
+                            </ul>
+                            <ul class="header-nav-cart"> 
+                                <li><a class="cart-logo-link" href="#">корзина</a>
+                                </li>
+                            </ul>
+                         </div>
+                    </div>
+                 </nav>
     
-        <main>
-            <div class="content-slide">
-            <section class="top-part">
-                <div class="top-part-info">
-                    <p class="info">Долго, Дорого, скруплезно.</p> 
-                    <p>Математически Выверенный дизайн для вашего саита илл мобильного приложения.</p>
-                    <a class="button" href="#">Узнать Больше</a>
-                </div>
+                 <div class="slider-container">
+                     <section class="header-info">
+                         <div class="info-head">
+                         <span>Долго, Дорого, скруплезно.</span><br>
+                         <p>Математически Выверенный дизайн для вашего саита илл мобильного приложения.</p>
+                         <a class="button-red" href="#">Узнать Больше</a>
+                         </div>
+                     </section>
+                <div class="slider">
+                     <section class="header-slides">
+                         <ul class="slider-list">
+                             <li class="slide-image"><a href="#">
+                                 <img src="images/slide1.png" alt="iphone images" width="760" height="431"></a>
+                             </li>
+                         </ul> 
+                     </section>
+                 </div>
+        </header>
+
+    <main>
+         <div class="main-device">
+            <section class="column-1">
+                <a href="#"><img src="images/illustration-1.png" alt="computer image" width="300" height="146"></a>
+                <h2>Веб-Сайты</h2>
+                <p>Мир некогда будет прежним после того как увидить ваш сайт!</p></div>
+                <a class="button-red" href="#">зказазть</a>
             </section>
 
-            <section class="slider">
-                    <ul class="slides-switches">
-                        <li class="slide-radio">
-                            <button class="slide-btn">
-                                 <img src="images/slide1.png" alt="iphone images">
-                            </button>
-                        </li>
-                        <li class="slide-radio">
-                           <button class="slide-btn" >
-                               <a href="#">second-slide</a> 
-                           </button>
-                        </li>
-                        <li class="slide-radio">
-                            <button class="slide-btn">
-                                <a href="#">thrid-slide</a>
-                            </button>
-                        </li>
-                    </ul>
+            <section class="column-2">
+                <a href="#"><img src="images/illustration-2.png" alt="mobile image" width="300" height="146"></a>
+                <h2>Приложения</h2>
+                <p>покрорите топ-10 приложений в Applestore и Google play</p></div>
+                <a class="button-green" href="#">зказать</a>
             </section>
-            </div>
-
-            <section class="devices-type">
-                 <div><img src="images/illustration-1.png" alt="computer image">
-                    <h2>Веб-Сайты</h2>
-                    <p>Мир некогда будет прежним после того как увидить ваш сайт!</p>
-                    <a  class="button" href="#">зказать</a>
-                 </div>
-
-                 <div><img src="images/illustration-2.png" alt="mobile image">
-                    <h2>Приложения</h2>
-                    <p>покрорите топ-10 приложений в Applestore и Google play</p>
-                    <a class="button" href="#">зказать</a>
-                 </div>
-         
-                 <div><img src="images/illustration-3.png" alt="screen image">
-                    <h2>Презентаций</h2>
-                    <p>Вы даже не подозреваете, насколько вы измительны!</p>
-                    <a class="button" href="#">зказать</a>
-                 </div>
+    
+            <section class="column-3">
+                <a href="#"><img src="images/illustration-3.png" alt="screen image" width="300" height="146"></a>
+                <h2>Презентаций</h2>
+                <p>Вы даже не подозреваете, насколько вы измительны!</p></div>
+                <a class="button-yellow" href="#">зказать</a>
             </section>
+         </div>
 
         
-            <div class="context-info">
-             <section class="context">
-                     
-                    <b>Мы-Маленькая но гордая дзайн-студия из Краснодара.</b>
-                    <p>изповедуем принципы минимализма и чистоты. ставим математическая расчет превыше креатива. работаем не покладая рук, как работы.  </p>
+         <div class="content">
+            <section class="content-info">
+                <ul class="content-left">
+                    <li><span>Мы-Маленькая но гордая дзайн-студия из Краснодара.</span></li>
+                    <li><p>изповедуем принципы минимализма и чистоты. ставим математическая расчет превыше креатива. работаем не покладая рук, как работы.</p></li>
                     <h3>Выполняем заказы на разработку:</h3>
-                    <ul class="context-list">
-                         <li>Веб-сайтов любой сложности</li>
-                         <li>Мобильньх приложений для IOS и Android.</li>
-                         <li>Слайдшоу и ведео для корпративных презентаций.</li>
-                    </ul>
+                    <li class="content-text">Веб-сайтов любой сложности</li>
+                    <li class="content-text">Мобильньх приложений для IOS и Android.</li>
+                    <li class="content-text">Слайдшоу и ведео для корпративных презентаций.</li>
+                </ul>
+            </section>
 
-                <section class="Rating">
-                    <img src="images/nerds-illustration.png" alt="nerds illustration image">
+            <div class="content-right">
+                <section class="rating-analyse">
+                    <a href="#"><img src="images/nerds-illustration.png" alt="nerds illustration image" width="360" height="208"></a>
                     <h3>с 2004 года любим точности во всем:</h3>
-                    <ul class="Rating-percentage">
-                        <li><strong>146%</strong>самоотдачи</li>
-                        <li><strong>100%</strong>соблюдение сроков</li>
-                        <li><strong>50%</strong>Минималная предоплата</li>
+                    <ul class="rating">
+                    <li><strong>146%</strong><p>Уровень самоотдачи</p></li>
+                    <li><strong>100%</strong><p>соблюдение сроков</p></li>
+                    <li><strong>50%</strong><p>Минималная предоплата</p></li>
                     </ul>
                 </section>
-             </section>
             </div>
 
-
-            <section class="brands"><div>
-                 <ul>
-                    <li><img src="images/logo-1.png.png" alt="html accademy"></li>
-                    <li><img src="images/logo-2.png.png" alt="beard"></li>
-                    <li><img src="images/logo-3.png.png" alt="pink"></li>
-                    <li><img src="images/logo-4.png.png" alt="misahka"></li>
-                 </ul>
-            </section>
+            <div class="brands-content">
+                <section class="main-brands">
+                    <ul class="brands-list">
+                         <li><a href="#"><img src="images/logo-1.png.png" alt="html accademy" width="200" height="70"></a></li>
+                         <li><a href="#"><img src="images/logo-2.png.png" alt="beard" width="200" height="70"></a></li>
+                         <li><a href="#"><img src="images/logo-3.png.png" alt="pink" width="200" height="70"></a></li>
+                         <li><a href="#"><img src="images/logo-4.png.png" alt="misahka180" width="200" height="70"></a></li>
+                    </ul>
+                </section>
+            </div>
      
-            
-         <footer> 
-            <section class="address-infooter">
-                <div>
-                    <img src="images/слой 2.png" alt="map">
-                    <img src="images/map-marker.png.png" alt="mapmarker logo">
-                    <img src="images/nerds-logo.png" alt="nerd logo">
-                    
-                        <p class="studio-name"> NERDS DESIGN STUDIO</p>
-                        191186, Санкт-Петербург,<br>
-                        ул.Б. Конюшенная, Д.19/8<br>
-                        тел. +7 (812) 275-75-75<br>
-                     <a class="button" href="#">НАПИШИТЕ НАМ</a>
-                </div>
-            
-            <section class="media-footer">
-                <ul class="social-media">
-                    <li><a href="#">follow us in vkontact</a></li>
-                    <li><a href="#">follow us in facebook</a></li>
-                    <li><a href="#">follow us in instagram</a></li>
-                </ul>       
-            </section>       
-                 <div>
-                <b>Давайте держить, это выгодно!</b>
-                <p>скидка 10% для друзей из социальных сетей.</p>
-                </div>
-        </footer>
-     </main>
-    </body>
+            <div class="physical-address">
+                 <section class="address-info">
+                        <a href="#"></a><img  src="images/слой 2.png" alt="map" width="1725" height="808"></a>
+                        <a href="#"></a><img src="images/map-marker.png.png" alt="mapmarker logo" width="367" height="190"></a>
+                 </section>
+            </div>
+
+                 <div class="main-address">
+                     <p><strong>nerds design studio</strong><br>
+                     191186, Санкт-Петербург,<br>
+                     ул.Б. Конюшенная, Д.19/8<br>
+                     тел. +7 (812) 275-75-75</p>
+                     <a class="button-red" href="#">напишите нам</a>
+                 </div>
+       </main>            
+            <footer>
+                 <section class="main-footer">
+                     <div class="media-footer">
+                         <ul class="social-media">
+                              <li><a class="social-button" href="#">follow us in vkontacts
+                                 <img src="images/vk-icon.png" alt="vk" width="78" height="78"></a></li>
+                              <li><a class="social-button" href="#">follow us in facebook
+                                 <img src="images/fb-icon.png"  alt="fb"  width="78" height="78"></a></li>
+                              <li><a class="social-button" href="#">follow us in instagram
+                                <img src="images/insta-icon.png"  alt="instagram" width="78" height="78"></a></li>
+                         </ul>  
+                         <div>
+                             <b>Давайте держить, это выгодно!</b><br>
+                             <p>скидка 10% для друзей из социальных сетей.</p>
+                         </div>
+                     </div>
+                 </section>
+            </footer>
+        </body>
 </html>
