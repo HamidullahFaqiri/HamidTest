@@ -1,4 +1,4 @@
-body, html {
+/*body, html {
     width: 1440px;
     margin : 0;
     padding: 0; 
@@ -561,6 +561,7 @@ input[type="radio"].visually-hidden {
     padding: 0;
 }
 */
+/*
 .main-address {
     display: flex;
     flex-direction: column;
@@ -631,3 +632,4 @@ input[type="radio"].visually-hidden {
     list-style: none;
 }
 
+*/
