@@ -1,5 +1,5 @@
-/fonts
-.styleguide
-.nerds-catalog
-.md
-.xd
+fonts/
+styleguide
+nerds-catalog
+*.md
+*.xd
